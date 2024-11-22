@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect } from "react";
-import animals from "../data/AnimalsDb"
+import animals from "../assets/data/AnimalsDb";
 import "../assets/css/style.css";
 
 export default function Game() {
@@ -56,7 +56,7 @@ export default function Game() {
                 onClick={() => handleAnimalClick(animal)}
               >
                 <img
-                  src={require(`../assets/img/${animal.image}`)}
+                  src={require(`../assets/img/${animal.img}`)}
                   alt={animal.name}
                   className="image"
                 />

@@ -10,7 +10,7 @@ export default function AnimalCard({ animals, onClick }) {
           onClick={() => onClick(animal)}
         >
           <img
-            src={require(`../assets/img/${animal.image}`)}
+            src={require(`../assets/img/${animal.img}`)}
             alt={animal.name}
             style={styles.image}
           />

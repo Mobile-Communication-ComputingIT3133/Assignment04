@@ -1,7 +1,7 @@
 
 import React from "react";
 
-export default function result({ result, onPlayAgain }) {
+export default function Result({ result, onPlayAgain }) {
   return (
     <div style={styles.container}>
       {result && <h3>{result}</h3>}

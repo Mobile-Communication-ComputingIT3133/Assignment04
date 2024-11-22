@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import animals from "../data/AnimalsDb"
 import "../assets/css/style.css";
 
-export default function game() {
+export default function Game() {
   const [targetAnimal, setTargetAnimal] = useState(null);
   const [result, setResult] = useState("");
 

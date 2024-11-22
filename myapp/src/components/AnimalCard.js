@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function animalCard({ animals, onClick }) {
+export default function AnimalCard({ animals, onClick }) {
   return (
     <div style={styles.grid}>
       {animals.map((animal) => (
